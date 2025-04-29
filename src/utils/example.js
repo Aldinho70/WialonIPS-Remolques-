@@ -1,0 +1,120 @@
+const options = {
+    nm: 'LARA 03',
+    cls: 2,
+    id: 27763395,
+    prp: {},
+    crt: 27782875,
+    bact: 27782876,
+    gd: '2995aacb1483701594de46b8f672d314',
+    mu: 0,
+    ct: 1705417471,
+    ftp: { ch: 0, tp: 0, fl: 1 },
+    pos: {
+      t: 1731003639,
+      f: 1,
+      lc: 0,
+      y: 27.8747,
+      x: -101.5001899,
+      c: 81,
+      z: 498,
+      s: 0,
+      sc: 18
+    },
+    lmsg: {
+      t: 1731003639,
+      f: 1,
+      tp: 'ud',
+      pos: { y: 27.8747, x: -101.5001899, c: 81, z: 498, s: 0, sc: 18 },
+      lc: 0,
+      rt: 1731003644,
+      p: {
+        prior: 0,
+        event_io_id: 0,
+        total_io: 5,
+        io_239: 0,
+        io_1: 0,
+        pwr_ext: 12.951,
+        io_66: 12951,
+        io_24: 0,
+        io_9: 260
+      }
+    },
+    sens: {
+      '1': {
+        id: 1,
+        n: 'IGNICION',
+        t: 'engine operation',
+        d: '',
+        m: 'Encendido/Apagado',
+        p: 'io_239',
+        f: 0,
+        c: '{"act":1,"appear_in_popup":true,"ci":{},"cm":1,"consumption":0,"mu":0,"pos":1,"show_time":true,"timeout":0}',
+        vt: 0,
+        vs: 0,
+        tbl: [],
+        ct: 1705946723,
+        mt: 1707582203
+      }
+    },
+    cfl: 1808,
+    cnm: 91098,
+    cneh: 2142.86916667,
+    cnkb: 8324,
+    prms: {
+      event_io_id: { v: 0, ct: 1731003639, at: 1731003639 },
+      io_1: { v: 0, ct: 1731003336, at: 1731003639 },
+      io_239: { v: 0, ct: 1731003338, at: 1731003639 },
+      io_24: { v: 0, ct: 1731003336, at: 1731003639 },
+      io_66: { v: 12951, ct: 1731003639, at: 1731003639 },
+      io_9: { v: 260, ct: 1730906709, at: 1731003639 },
+      posinfo: { v: [Object], ct: 1731003639, at: 1731003639 },
+      prior: { v: 0, ct: 1731003639, at: 1731003639 },
+      pwr_ext: { v: 12.951, ct: 1731003639, at: 1731003639 },
+      speed: { v: 0, ct: 1731003336, at: 1731003639 },
+      total_io: { v: 5, ct: 1705946775, at: 1731003639 }
+    },
+    netconn: 0,
+    act: 1,
+    dactt: 0,
+    cnm_km: 91098,
+    vp: null,
+    retr: null,
+    hch: {},
+    rtd: {
+      type: 1,
+      gpsCorrection: 1,
+      minSat: 2,
+      minMovingSpeed: 1,
+      minStayTime: 300,
+      maxMessagesDistance: 10000,
+      minTripTime: 60,
+      minTripDistance: 100
+    },
+    rfc: {
+      calcTypes: 0,
+      fuelLevelParams: {
+        flags: 1,
+        ignoreStayTimeout: 20,
+        minFillingVolume: 20,
+        minTheftTimeout: 0,
+        minTheftVolume: 10,
+        filterQuality: 0,
+        fillingsJoinInterval: 300,
+        theftsJoinInterval: 300,
+        extraFillingTimeout: 0
+      },
+      fuelConsMath: { idling: 2, urban: 10, suburban: 7 },
+      fuelConsRates: {
+        consSummer: 10,
+        consWinter: 12,
+        winterMonthFrom: 11,
+        winterDayFrom: 1,
+        winterMonthTo: 1,
+        winterDayTo: 30
+      },
+      fuelConsImpulse: { maxImpulses: 0, skipZero: 0 }
+    },
+    uri: '/avl_library_image/5/0/library/unit/A_23.png',
+    ugi: 1,
+    uacl: 16899
+  }
