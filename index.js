@@ -30,6 +30,6 @@ setInterval(app, 60000);
 
 /**
  * git remote add origin git@github-personal:Aldinho70/WialonIPS-Remolques-.git
-git branch -M main
-git push -u origin main
- */
+ * git branch -M main
+ * git push -u origin main
+**/
